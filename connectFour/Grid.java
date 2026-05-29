@@ -1,4 +1,4 @@
-/* CS3 Project 2 Connect Four Grid interface */
+/* CS3 Project 2: Connect Four Grid interface */
 package connectFour;
 
 /**
@@ -19,11 +19,10 @@ package connectFour;
  * 0 |   |   | 1 | 2 |   |   |   |
  *    --- --- --- --- --- --- ---
  *     0   1   2   3   4   5   6 
- *   
+ *  @author Arthur Watson 
  */
 public interface Grid {
-	// Note: interfaces can define constants, although it's not in the AP subset
-	// For example, you can use Grid.ROWS rather than 6 in your code, just like class constants
+	// Note: you can use Grid.ROWS rather than 6 in your code, just like class constants
 	public static final int ROWS = 6;        // number of rows in a grid
 	public static final int COLS = 7;        // number of columns in a grid
 	public static final int PLAYEREMPTY = 0; // player number for empty cell

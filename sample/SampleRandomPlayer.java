@@ -27,6 +27,6 @@ public class SampleRandomPlayer implements Player {
 	}
 
 	public String getPlayerName() {
-		return "Sample's Random Player"; // return something descriptive that includes your name
+		return "SampleRandom"; // returns a descriptive name for this player
 	}
 }

@@ -1,6 +1,10 @@
-/* CS3 Project 2 Connect Four Player interface */
+/* CS3 Project 2: Connect Four Player interface */
 package connectFour;
 
+/**
+ * Represents a player of a Connect Four game.
+ * @author Arthur Watson
+ */
 public interface Player {
 	/**
 	 * Gets the column index for the player's chosen move in the given grid.  Does not actually move.
@@ -20,7 +24,7 @@ public interface Player {
 	
 	/**
 	 * Returns the name of the player.
-	 * The player name should include your own name, like "Arthur's Confused Connector"
+	 * Automated players should include your own name, like "ArthurBot"
 	 * 
 	 * @return  player's name
 	 */
